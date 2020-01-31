@@ -34,30 +34,14 @@
     
 <body>
 
-    <div class="uk-position-relative">
-        <img src="images/light.jpg" alt="">
-        <div class="uk-position-top">
-            <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
-                <div class="uk-navbar-left">
-                    <ul class="uk-navbar-nav">
-                        <li class="uk-active"><a href="#">Parent</a></li>
-                        <li>
-                            <li><a href="#">Parent</a></li>
-                            <div class="uk-navbar-dropdown">
-                                <ul class="uk-nav uk-navbar-dropdown-nav">
-                                    <li class="uk-active"><a href="#">Active</a></li>
-                                    <li><a href="#">Item</a></li>
-                                    <li class="uk-nav-header">Header</li>
-                                    <li><a href="#">Item</a></li>
-                                    <li><a href="#">Item</a></li>
-                                    <li class="uk-nav-divider"></li>
-                                    <li><a href="#">Item</a></li>
-                                </ul>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+    <div >
+        <button class="uk-button uk-button-default" type="button">Menu</button>
+        <div uk-dropdown="pos: bottom-justify">
+            <ul class="uk-nav uk-dropdown-nav">
+                <li class="uk-active"><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                
+            </ul>
         </div>
     </div>
    

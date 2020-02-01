@@ -1,0 +1,88 @@
+html, body {
+
+    min-height: 100%;
+}
+
+body {
+    position: relative;
+}
+
+* {
+    outline: none;
+}
+
+img {
+    height: auto;
+    max-width: 40%;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 43%;
+    height: 20%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 0%;
+    z-index: 9;
+    background-color: rgba(0,0,0,0.5); /*dim the background*/
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    right: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 5%;
+}
+
+.main a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    cursor:pointer;
+    word-spacing: 10px;
+    font-weight: 600;
+}
+
+.sidenav a {
+    padding: 5%;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.sidenav hr {
+    margin-bottom: 5px;
+    margin-top: 6px;
+}
+
+.sidenav a:hover, .offcanvas a:focus {
+    color: #2c2b2b;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding-right: 6px;
+    padding-top: 15px;
+}

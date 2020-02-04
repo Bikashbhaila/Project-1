@@ -17,8 +17,43 @@
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <title>Group Project</title>
 </head>
-<body>
-    
+<body background="assets/background img/topography.png">
+
+    <div class="container">
+
+        <!-- navbar -->
+        <nav>
+            <div class="nav-wrapper blue-grey darken-1">
+                <a href="index.html" class="brand-logo mainLogo">Bike & Bitez</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#">About Page</a></li>
+                </ul>
+            </div>
+        </nav>
+         
+    <!-- Location Selection -->
+         <div class="row">
+            <h5>Bike Trail Location</h5>
+        </div>
+
+        <div class="row">
+            <!-- Use Current -->
+            <div class="input-field col s12 m4">
+                <a class="waves-effect waves-light btn green" id="currentLoc"><i
+                        class="material-icons right">my_location</i>Use Current</a>
+            </div>
+            <!-- Enter City -->
+            <div class="input-field col s6 m6">
+                <i class="material-icons prefix">add_location</i>
+                <input id="icon_prefix" type="text" class="validate">
+                <label for="icon_prefix">City, State</label>
+            </div>
+            <!-- Search Button -->
+            <div class="input-field col s2 m2">
+                <a class="waves-effect waves-light btn green" id="search">Search</a>
+            </div>
+
+        </div>
 </body>
 
 

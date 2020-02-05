@@ -1,0 +1,32 @@
+h5 {
+    font-family: 'Squada One', cursive;
+}
+
+.mainLogo {
+    margin-left: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .mainLogo {
+        font-size: 1.2rem !important;
+        margin: 0px !important;
+    }
+    nav {
+        width: 70% !important;
+        margin: auto !important;
+    }
+    #currentLoc {
+        width: 100% !important;
+        margin: auto !important;
+    }
+    .cityState {
+        width: 70% !important;
+    }
+    #search {
+        margin-left: 35px;
+    }
+    .card-title {
+        font-size: 20px !important;
+    }
+}

@@ -64,7 +64,7 @@ function getFood(trailsArr) {
   // these could be pulled from the form if we want to get fancy
   const srt = "real_distance";
   const odr = "asc";
-  const cusine = "mex"; // sticking with tacos, may need to change if not enough results
+  const cusine = ""; // sticking with tacos, may need to change if not enough results
   const cnt = "20"; // sticking with tacos, may need to change if not enough results
 
   // keep track of suggested restaurants for all trails
@@ -168,7 +168,7 @@ function getFood(trailsArr) {
         }
 
         if (drawObj.rImg === "") {
-          drawObj.rImg = 'assets/generic_food.png';
+          drawObj.rImg = 'assets/Images/FoodOption.jpeg';
         }
 
         if (test) console.log("   drawObject:", drawObj);

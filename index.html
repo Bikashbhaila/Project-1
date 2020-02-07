@@ -9,18 +9,16 @@
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css" media="screen,projection" />
     <!-- external stylesheet -->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- external javascript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="assets/js/materialize.min.js"></script>
     <title>Group Project</title>
 </head>
 <body background="assets/background img/topography.png">
-
     <div class="container">
-
         <!-- navbar -->
         <nav>
             <div class="nav-wrapper blue-grey darken-1">
@@ -30,9 +28,9 @@
                 </ul>
             </div>
         </nav>
-         
-    <!-- Location Selection -->
-         <div class="row">
+        
+        <!-- Location Selection -->
+        <div class="row">
             <h5>Bike Trail Location</h5>
         </div>
 
@@ -40,7 +38,7 @@
             <!-- Use Current -->
             <div class="input-field col s12 m4">
                 <a class="waves-effect waves-light btn green" id="currentLoc"><i
-                        class="material-icons right">my_location</i>Use Current</a>
+                    class="material-icons right">my_location</i>Use Current</a>
             </div>
             <!-- Enter City -->
             <div class="input-field col s6 m6">
@@ -52,7 +50,6 @@
             <div class="input-field col s2 m2">
                 <a class="waves-effect waves-light btn green" id="search">Search</a>
             </div>
-
         </div>
 
         <!-- results  **add dynamically to results page once results are ready, don't show results until user makes selections -->
@@ -82,9 +79,10 @@
                     </div>
                 </div>
             </div>
-    
-            <!-- Script puts results here -->
-    <div class="container">
+        </div>
+
+        <!-- Script puts results here -->
+        <div class="container">
         <div class="results-container"></div>
     </div>
 
